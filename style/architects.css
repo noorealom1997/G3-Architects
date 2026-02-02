@@ -87,19 +87,14 @@ main > section{
   margin-left: 73px;
   max-width: 537px;
 }
-/* Media Responsive work */
-@media screen and (max-width: 576px) {
-  .nav-link, .navber{
-    flex-direction: column;
-  }
-}
+/* Feture work */
 .team-feture-h3{
   font-size: 2.8rem;
 }
 #quick{
   font-weight: 500;
 }
-#of-our{
+.of-our{
   font-weight: bold;
   color: #131313;
 
@@ -108,4 +103,154 @@ main > section{
   font-weight: bold;
   color: #FF900E;
 }
+/* Future 222 */
+.future-22pra{
+  font-size: 1rem;
+  color: #727272;
+  max-width: 586px;
+  max-height: 78px;
+}
+.future-h2{
+  font-size: 2.81rem;
+  color: #131313;
+  max-width: 468px;
+  max-height: 106px;
+  
+}
+#h3dagar-jonno{
+  border-left: 5px solid tomato;
+  padding-left: 21px;
 
+}
+.card-h3{
+  font-size: 1.25rem;
+  font-weight: 600;
+  max-width: 252px;
+  max-height: 24px;
+  color: #131313;
+  /* margin-top: 0px; */
+  margin-bottom: 15px;
+}
+.card-pra{
+  font-size: 1rem;
+  color: #727272;
+  max-width: 514px;
+  max-height: 78px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.future-card-contanar{
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+  margin-bottom: 20px;
+}
+.featires{
+  gap: 140px;
+}
+/* Fatcs Section work */
+
+.Facts-h2{
+  font-size: 2.81rem;
+  color: #131313;
+}
+.facts-pra{
+  font-size: 1rem;
+  color: #727272;
+  max-width: 542px;
+  max-height: 52px;
+  margin-bottom: 100px;
+}
+.fact-ihh{
+  border: 1px solid tomato;
+  width: 241px;
+  height: 241px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+}
+.facts-containar{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.fact-number{
+  margin-top: 10px;
+  font-size: 2.81rem ;
+  font-weight: 600;
+  color: #424242;
+}
+.fact-name{
+  margin-top: 5px;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #727272;
+}
+.fact-icone{
+  margin-top: 50px;
+}
+/* Sponser section  */
+.sponsore-containar{
+
+}
+.sopnsar-hed-pra{
+  max-width: 542px;
+  max-height: 130px;
+  margin: 50px auto;
+  text-align: center;
+}
+.sponser-pra{
+  font-size: 1rem;
+  color: #727272;
+}
+.sopnsor-image{
+  filter: grayscale(100%);
+}
+.sponsor-image-container{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+/* Small device Media Responsive work */
+@media screen and (max-width: 576px) {
+  .nav-link, .navber, .team{
+    flex-direction: column;
+  }
+  .team-image-container{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .facts-containar{
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    gap: 24px;
+  }
+  .team-feture{
+    margin-left: 20px;
+  }
+  .sponsor-image-container{
+    grid-template-columns: repeat(1, 1fr);
+    gap: 50px;
+    justify-items: center;
+
+  }
+}
+/* Mediam device responsive work */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  .team{
+    flex-direction: column;
+    
+  }
+   .team-feture{
+    margin-right: 50px auto;
+  }
+  .facts-containar{
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    gap: 24px;
+}
+.sponsor-image-container{
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    justify-items: center;
+
+  }
