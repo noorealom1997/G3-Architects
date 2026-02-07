@@ -148,6 +148,22 @@ main > section{
 .featires{
   gap: 140px;
 }
+#Experience-button{
+  padding: 45px 42px;
+  margin-left: -100px;
+  margin-top: -100px;
+}
+#btn-boroid{
+  font-size: 4rem;
+  font-weight: bold;
+  max-width: 258px;
+  max-height: 108px;
+  color: white;
+}
+#ecprience{
+  font-size: 1.56rem;
+  font-weight: 500;
+}
 /* Fatcs Section work */
 
 .Facts-h2{
@@ -209,12 +225,26 @@ main > section{
 .sponsor-image-container{
   display: grid;
   grid-template-columns: repeat(5, 1fr);
+
 }
 
 /* Small device Media Responsive work */
 @media screen and (max-width: 576px) {
   .nav-link, .navber, .team{
     flex-direction: column;
+  }
+  .future-h2{
+    margin-bottom: 100px;
+  }
+  .featires{
+    flex-direction: column;
+  }
+  .fetire-architec img{
+    width: 100%;
+  }
+  #Experience-button{
+   margin-top: 20px;
+   margin-left: 20px;
   }
   .team-image-container{
     grid-template-columns: repeat(1, 1fr);
@@ -254,3 +284,22 @@ main > section{
     justify-items: center;
 
   }
+  
+  .featires{
+    flex-direction: column;
+    align-items: center;
+t  }
+  .fetire-architec img{
+    width: 100%;
+  }
+  #Experience-button{
+   margin-top: 20px;
+   margin-left: 200px;
+  }
+.Facts-h2, .facts-pra{
+justify-content: center;
+
+
+}
+}
+
